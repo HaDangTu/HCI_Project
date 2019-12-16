@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorHeaderText">#15C606</color>
+    <color name="colorAppName">#FFFFFF</color>
+    <color name="colorFABPressed">#13A305</color>
+    <color name="colorNote">#FF0000</color>
+    <color name="colorBlue">#0E09F4</color>
+    <color name="colorBackgroundOTP">#C4C4C4</color>
+    <color name="colorYellow">#FFFF00</color>
+    <color name="colorBlueAqua">#00E5FF</color>
+    <color name="colorText">#000000</color>
+</resources>

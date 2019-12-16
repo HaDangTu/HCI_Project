@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">MobileBanking</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="transfer_account">Số tài khoản</string>
+    <string name="account_balance">Số dư tài khoản</string>
+    <string name="receiver_name">Tên</string>
+    <string name="save_receiver_info">Lưu thông tin người nhận</string>
+    <string name="transfer_amount">Số tiền</string>
+    <string name="transfer_content">Nội dung chuyển</string>
+    <string name="transfer_fee">Phí chuyển tiền</string>
+    <string name="transfer_info">Thông tin người chuyển</string>
+    <string name="receiver_info">Thông tin người nhận</string>
+    <string name="deal_info">Thông tin giao dịch</string>
+    <string name="btImport">Import</string>
+    <string name="note_import">(*Tạo file .excel gồm các cột SoTaiKhoan, Ten, SoTien, NoiDungChuyen)</string>
+    <string name="input_otp">Nhập mã OTP trong 120s</string>
+    <string name="goal">Goal</string>
+    <string name="transfer_success">Chuyển khoản thành công</string>
+
+    <string name="quick_access">Quick access</string>
+    <string name="account_info">Thông tin tài khoản</string>
+    <string name="change_pass">Đổi mật khẩu</string>
+    <string name="log_out">Đăng xuất</string>
+    <string name="transfer_inside">Chuyển khoản trong hệ thống</string>
+    <string name="transfer_outside">Chuyển khoản ngoài hệ thống</string>
+    <string name="pay_electric_bill">Thanh toán hóa đơn tiền điện</string>
+    <string name="pay_phone_bill">Nạp tiền điện thoại</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="supplier">Nhà cung cấp</string>
+    <string name="customer_id">Mã khách hàng</string>
+    <string name="get_bill">Lấy hóa đơn</string>
+    <string name="pay_all">Thanh toán toàn bộ</string>
+    <string name="month">Tháng %1$s</string>
+    <string name="old_value">Chỉ số cũ:</string>
+    <string name="new_value">Chỉ số mới:</string>
+    <string name="sum_money">Tổng số tiền:</string>
+    <string name="pay_success">Thanh toán thành công</string>
+    <string name="phone_number">Số điện thoại</string>
+    <string name="save_phone_number">Lưu số điện thoại</string>
+    <string name="receive_otp">Hình thức nhận OTP</string>
+    <string name="pay_phone_bill_success">Nạp thẻ thành công</string>
+    <string name="card_value">Mệnh giá</string>
+    <string name="note_phone_import">(*Tạo file excel gồm các cột, SoDienThoai, SoTien, NhaCungCap)</string>
+    <string name="unit">Đơn vị</string>
+    <string name="transfer_fee_value">3,300 VND</string>
+</resources>

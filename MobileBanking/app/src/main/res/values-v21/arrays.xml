@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="list_transfer">
+        <item>011232404</item>
+        <item>011232403</item>
+        <item>011232402</item>
+    </string-array>
+
+    <string-array name="account_balances">
+        <item>30,000,000 VND</item>
+        <item>100,000,000 VND</item>
+        <item>50,000,000 VND</item>
+    </string-array>
+
+    <string-array name="list_transfer_fee">
+        <item>Người chuyển trả</item>
+        <item>Người nhận trả</item>
+    </string-array>
+
+    <string-array name="list_receiver">
+        <item>011332402</item>
+    </string-array>
+
+    <string-array name="receiver_name">
+        <item>Tu Ha</item>
+    </string-array>
+
+    <string-array name="list_unit">
+        <item>VND</item>
+        <item>USD</item>
+        <item>YEN</item>
+        <item>AUD</item>
+    </string-array>
+
+    <string-array name="list_supplier_phone">
+        <item>Viettel</item>
+        <item>Mobifone</item>
+        <item>Vinaphone</item>
+        <item>Vietnammobile</item>
+    </string-array>
+
+    <string-array name="list_supplier_electric">
+        <item>EVN - HCM</item>
+        <item>EVN - Hà nội</item>
+        <item>EVN - Đà Nẵng</item>
+        <item>EVN - Cần thơ</item>
+    </string-array>
+
+    <string-array name="list_OTP">
+        <item>SMART-OTP</item>
+        <item>SMS-OTP</item>
+    </string-array>
+
+    <string-array name="list_phone_number">
+        <item>0369483754</item>
+        <item>0393754948</item>
+    </string-array>
+
+    <string-array name="list_phone_card">
+        <item>20,000 VND</item>
+        <item>50,000 VND</item>
+        <item>100,000 VND</item>
+        <item>200,000 VND</item>
+        <item>500,000 VND</item>
+    </string-array>
+
+    <string-array name="list_month">
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+    </string-array>
+
+    <string-array name="list_old_value">
+        <item>1234</item>
+        <item>1577</item>
+        <item>1778</item>
+    </string-array>
+
+    <string-array name="list_new_value">
+        <item>1577</item>
+        <item>1778</item>
+        <item>1934</item>
+    </string-array>
+
+    <string-array name="list_money">
+        <item>234,000 VND</item>
+        <item>157,000 VND</item>
+        <item>332,000 VND</item>
+    </string-array>
+</resources>

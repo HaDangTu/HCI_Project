@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_transfer_inside">
+
+    <fragment
+        android:id="@+id/nav_transfer_inside"
+        android:name="com.example.mobilebanking.ui.transferinside.TransferInsideFragment"
+        android:label="@string/transfer_inside"
+        tools:layout="@layout/fragment_transfer_inside" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_pay_electric_bill"
+        android:name="com.example.mobilebanking.ui.payelectricbill.PayElectricBillFragment"
+        android:label="@string/pay_electric_bill"
+        tools:layout="@layout/fragment_pay_electric_bill"/>
+
+    <fragment
+        android:id="@+id/nav_pay_phone_bill"
+        android:name="com.example.mobilebanking.ui.payphonebill.PayPhoneBillFragment"
+        android:label="@string/pay_phone_bill"
+        tools:layout="@layout/fragment_pay_phone_bill"/>
+</navigation>
