@@ -76,7 +76,7 @@ public class InputOTPTransferInsideFragment extends Fragment {
     }
 
     private void confirmFABOnClick(){
-        ResultPayElectricBillFragment fragment = new ResultPayElectricBillFragment();
+        ResultTransferInsideFragment fragment = new ResultTransferInsideFragment();
         FragmentManager fragmentManager = getFragmentManager();
         fragmentManager.beginTransaction()
                 .replace(R.id.nav_host_fragment, fragment)

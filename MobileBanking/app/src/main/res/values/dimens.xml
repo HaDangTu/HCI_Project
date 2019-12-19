@@ -12,4 +12,6 @@
     <dimen name="marginStartEnd">5dp</dimen>
     <dimen name="inputOTPWidth">40dp</dimen>
     <dimen name="borderRadius">28dp</dimen>
+
+    <dimen name="scrollViewHeight">200dp</dimen>
 </resources>

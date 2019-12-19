@@ -18,7 +18,7 @@
     <string name="receiver_info">Thông tin người nhận</string>
     <string name="deal_info">Thông tin giao dịch</string>
     <string name="btImport">Import</string>
-    <string name="note_import">(*Tạo file .excel gồm các cột SoTaiKhoan, Ten, SoTien, NoiDungChuyen)</string>
+    <string name="note_import">(*Tạo file .excel gồm các cột SoTaiKhoan, Ten, SoTien)</string>
     <string name="input_otp">Nhập mã OTP trong 120s</string>
     <string name="goal">Goal</string>
     <string name="transfer_success">Chuyển khoản thành công</string>
@@ -51,4 +51,5 @@
     <string name="note_phone_import">(*Tạo file excel gồm các cột, SoDienThoai, SoTien, NhaCungCap)</string>
     <string name="unit">Đơn vị</string>
     <string name="transfer_fee_value">3,300 VND</string>
+    <string name="salary">Tiền lương tháng 11</string>
 </resources>
