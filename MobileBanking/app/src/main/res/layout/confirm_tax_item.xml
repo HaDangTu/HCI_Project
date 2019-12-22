@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/main_padding"
+    android:layout_marginTop="@dimen/marginTop"
+    android:background="@drawable/background_dialog">
+
+    <TextView
+        android:id="@+id/month_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/month"
+        android:textColor="@color/colorText"
+        style="@style/BillText"/>
+
+    <TextView
+        android:id="@+id/sum_money_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sum_money"
+        style="@style/BillText"/>
+</LinearLayout>

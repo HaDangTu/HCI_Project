@@ -120,4 +120,10 @@
         <item>0</item>
         <item>0</item>
     </integer-array>
+
+    <string-array name="list_id_tax">
+        <item>0014</item>
+        <item>1772</item>
+        <item>0271</item>
+    </string-array>
 </resources>

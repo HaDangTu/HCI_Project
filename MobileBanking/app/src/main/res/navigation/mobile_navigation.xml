@@ -23,4 +23,17 @@
         android:name="com.example.mobilebanking.ui.payphonebill.PayPhoneBillFragment"
         android:label="@string/pay_phone_bill"
         tools:layout="@layout/fragment_pay_phone_bill"/>
+
+    <fragment
+        android:id="@+id/nav_transfer_outside"
+        android:name="com.example.mobilebanking.ui.transferoutside.TransferOutsideFragment"
+        android:label="@string/transfer_outside"
+        tools:layout="@layout/fragment_transfer_outside" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_pay_tax_bill"
+        android:name="com.example.mobilebanking.ui.paytaxbill.PayTaxBillFragment"
+        android:label="@string/pay_tax_bill"
+        tools:layout="@layout/fragment_pay_tax_bill"/>
 </navigation>
