@@ -11,10 +11,12 @@ import androidx.recyclerview.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
 
 import com.example.mobilebanking.R;
 import com.example.mobilebanking.ui.payphonebill.adapter.ListConfirmPhoneRecyclerViewAdapter;
 import com.example.mobilebanking.ui.payphonebill.object.PhoneInfo;
+import com.example.mobilebanking.util.KeyManager;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 import java.util.ArrayList;
@@ -27,6 +29,8 @@ public class ConfirmPayMorePhoneBillFragment extends Fragment {
     private FloatingActionButton confirmFAB;
     private FloatingActionButton backFAB;
 
+    private TextView accountIdTView;
+    private TextView accountBalTView;
     public ConfirmPayMorePhoneBillFragment() {
         // Required empty public constructor
     }
@@ -69,6 +73,15 @@ public class ConfirmPayMorePhoneBillFragment extends Fragment {
                 backFABOnClick();
             }
         });
+
+        accountIdTView = root.findViewById(R.id.account_id);
+        accountBalTView = root.findViewById(R.id.account_bal_more_text_view);
+
+        Bundle args = getArguments();
+        if (args != null){
+            accountIdTView.setText(args.getString(KeyManager.ACCOUNT_ID));
+            accountBalTView.setText(args.getString(KeyManager.ACCOUNT_BALANCE));
+        }
         return root;
     }
 

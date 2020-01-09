@@ -11,10 +11,13 @@ import androidx.recyclerview.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Spinner;
+import android.widget.TextView;
 
 import com.example.mobilebanking.R;
 import com.example.mobilebanking.ui.payphonebill.adapter.ListPhoneRecyclerViewAdapter;
 import com.example.mobilebanking.ui.payphonebill.object.PhoneInfo;
+import com.example.mobilebanking.util.KeyManager;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 import java.util.ArrayList;
@@ -25,6 +28,8 @@ import java.util.ArrayList;
 public class PayMorePhoneBillFragment extends Fragment {
 
     private FloatingActionButton nextFAB;
+    private Spinner accountIDSpinner;
+    private TextView accountBalTView;
 
     public PayMorePhoneBillFragment() {
         // Required empty public constructor
@@ -58,12 +63,20 @@ public class PayMorePhoneBillFragment extends Fragment {
                 nextFABOnClick();
             }
         });
+
+        accountIDSpinner = root.findViewById(R.id.transfer_more_acc_spinner);
+        accountBalTView = root.findViewById(R.id.account_bal_more_text_view);
         return root;
     }
 
     private void nextFABOnClick(){
         ConfirmPayMorePhoneBillFragment fragment = new ConfirmPayMorePhoneBillFragment();
         FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
+        Bundle args = new Bundle();
+        args.putString(KeyManager.ACCOUNT_ID, accountIDSpinner.getSelectedItem().toString());
+        args.putString(KeyManager.ACCOUNT_BALANCE, accountBalTView.getText().toString());
+        fragment.setArguments(args);
+
         fragmentManager.beginTransaction()
                 .replace(R.id.nav_host_fragment, fragment)
                 .addToBackStack(fragment.getClass().getSimpleName())

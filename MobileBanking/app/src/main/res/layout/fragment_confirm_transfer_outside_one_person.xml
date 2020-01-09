@@ -58,6 +58,7 @@
                         android:id="@+id/confirm_transfer_acc_text_view"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:textColor="@color/colorText"
                         style="@style/FieldInput"/>
                 </LinearLayout>
             </LinearLayout>
@@ -94,7 +95,9 @@
                         android:id="@+id/confirm_account_bal_text_view"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:textColor="@color/colorAccountBalanceText"
+                        android:textColor="@color/colorText"
+                        android:textStyle="bold"
+                        android:text="@string/account_balance_num"
                         style="@style/FieldInput"/>
                 </LinearLayout>
             </LinearLayout>
@@ -139,6 +142,7 @@
                         android:id="@+id/confirm_receiver_bank_text_view"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:textColor="@color/colorText"
                         style="@style/FieldInput"/>
                 </LinearLayout>
             </LinearLayout>
@@ -176,6 +180,8 @@
                         android:id="@+id/confirm_receiver_acc_text_view"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:textColor="@color/colorImportantContent"
+                        android:textStyle="bold"
                         style="@style/FieldInput"/>
                 </LinearLayout>
             </LinearLayout>
