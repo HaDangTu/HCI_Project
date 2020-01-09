@@ -94,7 +94,7 @@
                         android:id="@+id/confirm_account_bal_text_view"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:textColor="@color/colorBlue"
+                        android:textColor="@color/colorAccountBalanceText"
                         style="@style/FieldInput"/>
                 </LinearLayout>
             </LinearLayout>

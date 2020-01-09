@@ -54,12 +54,11 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1">
 
-                    <Spinner
-                        android:id="@+id/transfer_more_acc_spinner"
+                    <TextView
+                        android:id="@+id/account_id"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:entries="@array/list_transfer"
-                        android:background="@drawable/spinner_background"
+                        android:textColor="@color/colorText"
                         style="@style/FieldInput"/>
                 </LinearLayout>
             </LinearLayout>
@@ -96,6 +95,8 @@
                         android:id="@+id/account_bal_more_text_view"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:textColor="@color/colorText"
+                        android:textStyle="bold"
                         style="@style/FieldInput"/>
                 </LinearLayout>
             </LinearLayout>

@@ -52,6 +52,7 @@
                     android:id="@+id/payer_acc_text_view"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textColor="@color/colorText"
                     style="@style/FieldInput"/>
             </LinearLayout>
         </LinearLayout>
@@ -88,6 +89,8 @@
                     android:id="@+id/payer_account_bal_text_view"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textColor="@color/colorText"
+                    android:textStyle="bold"
                     style="@style/FieldInput"/>
             </LinearLayout>
         </LinearLayout>
@@ -130,6 +133,7 @@
                     android:id="@+id/phone_number_text_view"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textColor="@color/colorImportantContent"
                     style="@style/FieldInput"/>
             </LinearLayout>
         </LinearLayout>
@@ -166,6 +170,8 @@
                     android:id="@+id/phone_card_text_view"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textColor="@color/colorImportantContent"
+                    android:textStyle="bold"
                     style="@style/FieldInput"/>
             </LinearLayout>
         </LinearLayout>
@@ -202,6 +208,7 @@
                     android:id="@+id/supplier_text_view"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textColor="@color/colorText"
                     style="@style/FieldInput"/>
             </LinearLayout>
         </LinearLayout>

@@ -38,9 +38,9 @@ public class ListConfirmBillRecyclerViewAdapter extends RecyclerView.Adapter {
     @Override
     public void onBindViewHolder(@NonNull RecyclerView.ViewHolder holder, int position) {
         ElectricBill electricBill = electricBills.get(position);
-        SpannableString colorOldValueText = colorText(electricBill.getOldValue(), Color.BLUE);
-        SpannableString colorNewValueText = colorText(electricBill.getNewValue(), Color.RED);
-        SpannableString colorSumMoneyText = colorText(electricBill.getSumMoney(), Color.RED);
+        SpannableString colorOldValueText = colorText(electricBill.getOldValue(), Color.parseColor("#0F6112"));
+        SpannableString colorNewValueText = colorText(electricBill.getNewValue(), Color.parseColor("#0F6112"));
+        SpannableString colorSumMoneyText = colorText(electricBill.getSumMoney(), Color.parseColor("#0C550F"));
 
         ListConfirmBillRecyclerViewAdapter.ListConfirmBillViewHolder listBillViewHolder =
                 (ListConfirmBillRecyclerViewAdapter.ListConfirmBillViewHolder) holder;
@@ -48,15 +48,15 @@ public class ListConfirmBillRecyclerViewAdapter extends RecyclerView.Adapter {
                 electricBill.getMonth()));
 
         listBillViewHolder.oldValueTextView.setText(
-                TextUtils.concat(colorText(context.getString(R.string.old_value), Color.BLACK),
+                TextUtils.concat(colorText(context.getString(R.string.old_value), Color.parseColor("#29B82E")),
                         " ", colorOldValueText));
 
         listBillViewHolder.newValueTextView.setText(
-                TextUtils.concat(colorText(context.getString(R.string.new_value), Color.BLACK)
+                TextUtils.concat(colorText(context.getString(R.string.new_value), Color.parseColor("#29B82E"))
                         , " ", colorNewValueText));
 
         listBillViewHolder.sumMoneyTextView.setText(
-                TextUtils.concat(colorText(context.getString(R.string.sum_money), Color.BLACK),
+                TextUtils.concat(colorText(context.getString(R.string.sum_money), Color.parseColor("#29B82E")),
                         " ", colorSumMoneyText));
     }
 

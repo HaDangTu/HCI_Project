@@ -97,7 +97,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="300,000,000 VND"
-                        android:textColor="@color/colorBlue"
+                        android:textColor="@color/colorAccountBalanceText"
                         style="@style/FieldInput"/>
                 </LinearLayout>
             </LinearLayout>

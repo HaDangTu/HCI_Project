@@ -23,6 +23,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/old_value"
+            android:textColor="@color/colorText"
             android:layout_alignParentStart="true"
             android:layout_centerVertical="true"
             style="@style/BillText"/>
@@ -32,6 +33,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/new_value"
+            android:textColor="@color/colorText"
             android:layout_centerVertical="true"
             android:layout_centerHorizontal="true"
             style="@style/BillText"/>
@@ -49,5 +51,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/sum_money"
+        android:textColor="@color/colorText"
         style="@style/BillText"/>
 </LinearLayout>

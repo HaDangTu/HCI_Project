@@ -4,4 +4,5 @@
 
     <corners android:radius="@dimen/borderRadius"/>
     <stroke android:width="2dp"/>
+    <solid android:color="@color/colorAppName"/>
 </shape>

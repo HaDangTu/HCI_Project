@@ -96,6 +96,9 @@
                         android:id="@+id/account_bal_more_text_view"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorText"
+                        android:text="@string/account_balance_num"
                         style="@style/FieldInput"/>
                 </LinearLayout>
             </LinearLayout>

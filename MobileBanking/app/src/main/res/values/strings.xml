@@ -57,4 +57,7 @@
     <string name="transfer_fee_value">3,300 VND</string>
     <string name="salary">Tiền lương tháng 11</string>
     <string name="id_tax">Mã Số Thuế</string>
+    <string name="account_balance_num">300,000,000 VND</string>
+    <string name="customer_id_value">MH04834234</string>
+    <string name="phone_number_demo">0394585479</string>
 </resources>

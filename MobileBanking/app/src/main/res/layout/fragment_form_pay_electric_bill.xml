@@ -90,6 +90,9 @@
                     android:id="@+id/payer_account_bal_text_view"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:text="@string/account_balance_num"
+                    android:textColor="@color/colorText"
+                    android:textStyle="bold"
                     style="@style/FieldInput"/>
             </LinearLayout>
         </LinearLayout>
@@ -174,6 +177,7 @@
                     android:background="@drawable/input_background"
                     android:paddingStart="10dp"
                     android:paddingEnd="10dp"
+                    android:text="@string/customer_id_value"
                     style="@style/FieldInput"/>
             </LinearLayout>
         </LinearLayout>

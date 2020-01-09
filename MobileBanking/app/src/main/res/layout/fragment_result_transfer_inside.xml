@@ -22,7 +22,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="24sp"
-        android:textColor="@color/colorBlue"
+        android:textColor="@color/colorAccountBalanceText"
         android:textStyle="bold"
         android:text="@string/transfer_success"
         android:layout_marginTop="16dp"

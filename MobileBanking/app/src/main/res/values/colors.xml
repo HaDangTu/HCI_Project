@@ -6,10 +6,12 @@
     <color name="colorHeaderText">#15C606</color>
     <color name="colorAppName">#FFFFFF</color>
     <color name="colorFABPressed">#13A305</color>
-    <color name="colorNote">#FF0000</color>
-    <color name="colorBlue">#0E09F4</color>
+    <color name="colorNote">#177607</color>
+    <color name="colorAccountBalanceText">#29B82E</color>
     <color name="colorBackgroundOTP">#C4C4C4</color>
     <color name="colorYellow">#FFFF00</color>
     <color name="colorBlueAqua">#00E5FF</color>
-    <color name="colorText">#000000</color>
+    <color name="colorText">#29B82E</color>
+    <color name="colorImportantContent">#0F6112</color>
+    <color name="colorImportantContent2">#1A871E</color>
 </resources>

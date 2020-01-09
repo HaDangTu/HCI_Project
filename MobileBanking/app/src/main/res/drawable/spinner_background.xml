@@ -7,10 +7,10 @@
                     <corners android:radius="@dimen/borderRadius"/>
                     <stroke android:width="2dp"/>
                     <padding android:right="10dp"/>
+                    <solid android:color="@color/colorAppName"/>
                 </shape>
             </item>
-            <item android:drawable="@drawable/ic_spinner"
-                android:gravity="right"/>
+            <item android:gravity="right" android:drawable="@drawable/ic_spinner"/>
         </layer-list>
     </item>
 </selector>

@@ -96,6 +96,9 @@
                         android:id="@+id/account_bal_text_view"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:text="300,000,000 VND"
+                        android:textColor="@color/colorText"
+                        android:textStyle="bold"
                         style="@style/FieldInput"/>
                 </LinearLayout>
             </LinearLayout>
@@ -143,6 +146,7 @@
                         android:paddingStart="10dp"
                         android:paddingEnd="10dp"
                         android:inputType="number"
+                        android:text="011332402"
                         android:background="@drawable/input_background"
                         style="@style/FieldInput"/>
                 </LinearLayout>
@@ -184,6 +188,7 @@
                         android:background="@drawable/input_background"
                         android:paddingStart="10dp"
                         android:paddingEnd="10dp"
+                        android:text="Tu Ha"
                         style="@style/FieldInput"/>
                 </LinearLayout>
             </LinearLayout>
@@ -264,6 +269,7 @@
                         android:inputType="number"
                         android:paddingStart="10dp"
                         android:paddingEnd="10dp"
+                        android:text="15.000.000"
                         style="@style/FieldInput"/>
 
                 </LinearLayout>
@@ -342,6 +348,7 @@
                         android:inputType="textMultiLine"
                         android:padding="10dp"
                         android:background="@drawable/input_background"
+                        android:text="Tiền học phí học kì 2"
                         style="@style/FieldInput"/>
 
                 </LinearLayout>

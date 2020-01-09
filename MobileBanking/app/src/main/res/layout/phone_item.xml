@@ -21,9 +21,9 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="5dp"
-        android:layout_marginEnd="5dp"
+
         android:textSize="14sp"
-        android:textAlignment="center"
+        android:textAlignment="textStart"
         android:entries="@array/list_phone_card"
         android:background="@drawable/spinner_background"
         android:layout_weight="1"/>
@@ -33,6 +33,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:background="@drawable/spinner_background"
+        android:layout_marginStart="5dp"
         android:textSize="14sp"
         android:entries="@array/list_supplier_phone"
         android:textAlignment="center"

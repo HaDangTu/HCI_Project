@@ -92,6 +92,9 @@
                         android:id="@+id/account_bal_more_text_view"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:text="300,000,000 VND"
+                        android:textColor="@color/colorText"
+                        android:textStyle="bold"
                         style="@style/FieldInput"/>
                 </LinearLayout>
             </LinearLayout>
