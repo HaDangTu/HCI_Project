@@ -33,8 +33,8 @@
                 android:id="@+id/nav_transfer_outside"
                 android:title="@string/transfer_outside"/>
             <item
-                android:id="@+id/nav_pay_tax_bill"
-                android:title="@string/pay_tax_bill" />
+                android:id="@+id/nav_pay_wallet_eletric"
+                android:title="@string/pay_wallet_eletric" />
         </menu>
     </item>
 

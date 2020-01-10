@@ -17,6 +17,7 @@ public class KeyManager {
 
     public static final String CUSTOMER_ID = "customer id";
     public static final String IDTAX = "id tax";
+    public static final String TYPE_WALLET = "type wallet";
 
     public static final String TAB = "tab";
 }

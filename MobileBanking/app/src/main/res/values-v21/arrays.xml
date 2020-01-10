@@ -17,6 +17,11 @@
         <item>Người nhận trả</item>
     </string-array>
 
+    <string-array name="list_type_wallet">
+    <item>MoMo</item>
+    <item>Viettel Pay</item>
+    </string-array>
+
     <string-array name="list_receiver">
         <item>011332402</item>
     </string-array>
@@ -94,10 +99,21 @@
         <item>001134239</item>
     </string-array>
 
+    <string-array name="id_customer">
+        <item>KH1100239</item>
+        <item>KH1544729</item>
+        <item>KH1134239</item>
+    </string-array>
+
     <string-array  name="name_receivers">
         <item>Nguyen Van C</item>
         <item>Nguyen Thi H</item>
         <item>Le Van D</item>
+    </string-array>
+
+    <string-array  name="type_wallet">
+        <item>MoMo</item>
+        <item>Viettel Pay</item>
     </string-array>
 
     <string-array name="transfer_amounts">

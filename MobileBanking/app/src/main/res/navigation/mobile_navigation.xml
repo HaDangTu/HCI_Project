@@ -32,8 +32,8 @@
     </fragment>
 
     <fragment
-        android:id="@+id/nav_pay_tax_bill"
-        android:name="com.example.mobilebanking.ui.paytaxbill.PayTaxBillFragment"
-        android:label="@string/pay_tax_bill"
-        tools:layout="@layout/fragment_pay_tax_bill"/>
+        android:id="@+id/nav_pay_wallet_eletric"
+        android:name="com.example.mobilebanking.ui.paywalletelectric.PayWalletEletricFragment"
+        android:label="@string/pay_wallet_eletric"
+        tools:layout="@layout/fragment_wallet_electric"/>
 </navigation>

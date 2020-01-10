@@ -24,6 +24,8 @@
     <string name="goal">Goal</string>
     <string name="transfer_success">Chuyển khoản thành công</string>
     <string name="note_outside_import">(*Tạo file .excel gồm các cột NganHang, SoTaiKhoan, Ten, SoTien)</string>
+    <string name="type_wallet">Loại Ví</string>
+    <string name="note_wallet_import">(*Tạo file .excel gồm các cột MaKhachHang, SoTien, LoaiVi)</string>
 
     <string name="quick_access">Quick access</string>
     <string name="account_info">Thông tin tài khoản</string>
@@ -33,7 +35,7 @@
     <string name="transfer_outside">Chuyển khoản ngoài hệ thống</string>
     <string name="pay_electric_bill">Thanh toán hóa đơn tiền điện</string>
     <string name="pay_phone_bill">Nạp tiền điện thoại</string>
-    <string name="pay_tax_bill">Thanh toán tiền thuế</string>
+    <string name="pay_wallet_eletric">Nạp Tiền Ví Điện Tử</string>
     <string name="get_tax_bill">Lấy Thuế</string>
 
     <!-- TODO: Remove or change this placeholder text -->
@@ -50,7 +52,7 @@
     <string name="phone_number">Số điện thoại</string>
     <string name="save_phone_number">Lưu số điện thoại</string>
     <string name="receive_otp">Hình thức nhận OTP</string>
-    <string name="pay_phone_bill_success">Nạp thẻ thành công</string>
+    <string name="pay_phone_bill_success">Nạp tiền thành công</string>
     <string name="card_value">Mệnh giá</string>
     <string name="note_phone_import">(*Tạo file excel gồm các cột, SoDienThoai, SoTien, NhaCungCap)</string>
     <string name="unit">Đơn vị</string>
