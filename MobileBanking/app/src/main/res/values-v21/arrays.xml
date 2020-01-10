@@ -114,6 +114,7 @@
     <string-array  name="type_wallet">
         <item>MoMo</item>
         <item>Viettel Pay</item>
+        <item>Zalo Pay</item>
     </string-array>
 
     <string-array name="transfer_amounts">
